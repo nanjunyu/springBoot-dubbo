@@ -5,11 +5,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * 消息交换机配置  可以配置多个
- * @author zhuzhe
- * @date 2018/5/25 15:40
- * @email 1529949535@qq.com
- */
+* @Author: Frank
+* @Description:消息交换机配置  可以配置多个
+* @Date: Create in  2018/11/29 10:01 PM
+* @params:
+* @return:
+*/
 @Configuration
 public class ExchangeConfig {
 

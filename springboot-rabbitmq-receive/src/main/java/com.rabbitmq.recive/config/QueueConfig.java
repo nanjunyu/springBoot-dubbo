@@ -5,11 +5,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * 队列配置  可以配置多个队列
- * @author zhuzhe
- * @date 2018/5/25 13:25
- * @email 1529949535@qq.com
- */
+* @Author: Frank
+* @Description: 队列配置  可以配置多个队列
+* @Date: Create in  2018/11/29 10:01 PM
+* @params:
+* @return:
+*/
 @Configuration
 public class QueueConfig {
 

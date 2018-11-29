@@ -8,10 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.UUID;
 
 /**
- * @author zhuzhe
- * @date 2018/5/25 16:00
- * @email 1529949535@qq.com
- */
+* @Author: Frank
+* @Description: 测试发送
+* @Date: Create in  2018/11/29 10:02 PM
+* @params:
+* @return:
+*/
 @RestController
 public class SendController {
 

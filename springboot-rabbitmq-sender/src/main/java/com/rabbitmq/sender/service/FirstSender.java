@@ -8,11 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * 消息发送  生产者1
- * @author zhuzhe
- * @date 2018/5/25 14:28
- * @email 1529949535@qq.com
- */
+* @Author: Frank
+* @Description: 消息发送  生产者
+* @Date: Create in  2018/11/29 10:02 PM
+* @params:
+* @return:
+*/
 @Slf4j
 @Component
 public class FirstSender {

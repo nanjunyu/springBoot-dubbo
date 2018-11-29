@@ -4,11 +4,12 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.support.CorrelationData;
 
 /**
- * 消息发送到交换机确认机制
- * @author zhuzhe
- * @date 2018/5/25 15:53
- * @email 1529949535@qq.com
- */
+* @Author: Frank
+* @Description: 消息发送到交换机确认机制
+* @Date: Create in  2018/11/29 10:01 PM
+* @params:
+* @return:
+*/
 public class MsgSendConfirmCallBack implements RabbitTemplate.ConfirmCallback {
 
     @Override

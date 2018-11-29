@@ -11,11 +11,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * RabbitMq配置
- * @author zhuzhe
- * @date 2018/5/25 13:37
- * @email 1529949535@qq.com
- */
+* @Author: Frank
+* @Description: RabbitMq配置
+* @Date: Create in  2018/11/29 10:01 PM
+* @params:
+* @return:
+*/
 @Configuration
 public class RabbitMqConfig {
 
