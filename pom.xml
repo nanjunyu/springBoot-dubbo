@@ -22,6 +22,8 @@
 		<module>springboot-dubbo-api</module>
 		<module>springboot-dubbo-server</module>
 		<module>springboot-dubbo-client</module>
+        <module>springboot-rabbitmq-receive</module>
+		<module>springboot-rabbitmq-sender</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
