@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.springboot.dubbo.server.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.example.demo.api.UserService;
-import com.example.demo.model.User;
+import com.springboot.dubbo.api.api.UserService;
+import com.springboot.dubbo.api.model.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

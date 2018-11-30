@@ -15,7 +15,6 @@ import java.util.List;
 * @params:
 * @return:
 */
-//该Service注解是dubbo的注解，不是spring的。若使用xml配置方式暴露接口，则不需要该注解。
 @Service
 public class UserServiceImpl implements UserService {
 

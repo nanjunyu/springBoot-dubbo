@@ -1,6 +1,6 @@
-package com.example.demo.api;
+package com.springboot.dubbo.server.api;
 
-import com.example.demo.model.User;
+import com.springboot.dubbo.server.model.User;
 
 import java.util.List;
 
