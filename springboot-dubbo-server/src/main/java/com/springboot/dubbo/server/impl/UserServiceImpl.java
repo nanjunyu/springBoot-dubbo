@@ -1,9 +1,9 @@
-package com.example.demo.impl;
+package com.springboot.dubbo.server.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.example.demo.api.UserService;
-import com.example.demo.dao.UserMapper;
-import com.example.demo.model.User;
+import com.springboot.dubbo.api.api.UserService;
+import com.springboot.dubbo.server.dao.UserMapper;
+import com.springboot.dubbo.api.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

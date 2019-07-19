@@ -1,4 +1,4 @@
-package com.springboot.dubbo.server.controller;
+package com.springboot.dubbo.client.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.springboot.dubbo.api.api.UserService;

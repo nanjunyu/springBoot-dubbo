@@ -23,7 +23,7 @@ public class SendController {
     @GetMapping("/send")
     public String send(String message){
         String uuid = UUID.randomUUID().toString();
-        System.out.println("准备发型mq消息了:message="+message);
+        System.out.println("准备发送mq消息了:message="+message);
         firstSender.send(uuid,message);
         return uuid;
     }

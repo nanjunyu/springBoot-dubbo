@@ -15,10 +15,10 @@ http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <dubbo:consumer check="false" />
 
     <!-- 使用注解方式创建远程服务代理-->
-    <dubbo:annotation package="com.example.demo.controller"/>
+    <dubbo:annotation package="com.springboot.dubbo.client.controller"/>
 
     <!-- 使用xml配置方式创建远程服务代理，id即为provider.xml中暴露的服务的id-->
     <!-- 等同于dubbo:annotation 加上代码里的@Reference注解-->
-    <!--<dubbo:reference id="userService" interface="com.example.demo.api.UserService"/>-->
+    <!--<dubbo:reference id="userService" interface="UserService"/>-->
 
 </beans>

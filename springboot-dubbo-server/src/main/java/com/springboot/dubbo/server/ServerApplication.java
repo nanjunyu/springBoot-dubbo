@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.springboot.dubbo.server;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.tomcat.jdbc.pool.DataSource;
@@ -14,7 +14,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 
 @SpringBootApplication
-@MapperScan("com.example.demo.dao")
+@MapperScan("com.springboot.dubbo.server.dao")
 @ImportResource("classpath:provider.xml")  //加载xml文件
 /**
 * @Author: Frank

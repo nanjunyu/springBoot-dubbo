@@ -1,4 +1,4 @@
-package com.springboot.dubbo.server.model;
+package com.springboot.dubbo.api.model;
 
 import java.io.Serializable;
 

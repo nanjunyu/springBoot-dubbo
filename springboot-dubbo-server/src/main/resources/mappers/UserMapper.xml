@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.demo.dao.UserMapper">
-  <resultMap id="BaseResultMap" type="com.example.demo.model.User">
+<mapper namespace="com.springboot.dubbo.server.dao.UserMapper">
+  <resultMap id="BaseResultMap" type="com.springboot.dubbo.api.model.User">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="user_name" jdbcType="VARCHAR" property="userName" />
     <result column="real_name" jdbcType="VARCHAR" property="realName" />
@@ -20,13 +20,13 @@
     delete from user
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.example.demo.model.User">
+  <insert id="insert" parameterType="com.springboot.dubbo.api.model.User">
     insert into user (id, user_name, real_name,
       pwd)
     values (#{id,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{realName,jdbcType=VARCHAR},
       #{pwd,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.example.demo.model.User">
+  <insert id="insertSelective" parameterType="com.springboot.dubbo.api.model.User">
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -57,7 +57,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.example.demo.model.User">
+  <update id="updateByPrimaryKeySelective" parameterType="com.springboot.dubbo.api.model.User">
     update user
     <set>
       <if test="userName != null">
@@ -72,7 +72,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.example.demo.model.User">
+  <update id="updateByPrimaryKey" parameterType="com.springboot.dubbo.api.model.User">
     update user
     set user_name = #{userName,jdbcType=VARCHAR},
       real_name = #{realName,jdbcType=VARCHAR},

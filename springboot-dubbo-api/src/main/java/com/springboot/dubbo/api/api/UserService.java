@@ -1,6 +1,6 @@
-package com.springboot.dubbo.server.api;
+package com.springboot.dubbo.api.api;
 
-import com.springboot.dubbo.server.model.User;
+import com.springboot.dubbo.api.model.User;
 
 import java.util.List;
 

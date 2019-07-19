@@ -3,7 +3,7 @@ spring:
     host: 47.107.134.157
     port: 5672
     username: admin
-    password: admin
+    password: nan4879554
     publisher-confirms: true  #  消息发送到交换机确认机制,是否确认回调
     publisher-returns: true
   devtools:

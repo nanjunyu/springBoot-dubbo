@@ -1,6 +1,6 @@
-package com.example.demo.dao;
+package com.springboot.dubbo.server.dao;
 
-import com.example.demo.model.User;
+import com.springboot.dubbo.api.model.User;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;

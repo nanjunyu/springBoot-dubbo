@@ -15,7 +15,7 @@
         <jdbcConnection connectionURL="jdbc:mysql://127.0.0.1:3306/Frank"
                         driverClass="com.mysql.jdbc.Driver" password="nan4879554" userId="root" />
 
-        <javaModelGenerator targetPackage="com.example.demo.model"
+        <javaModelGenerator targetPackage="com.springboot.dubbo.api.model"
                             targetProject="src/main/java" >
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
@@ -26,7 +26,7 @@
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator targetPackage="com.oss.admin.boss.dao"
+        <javaClientGenerator targetPackage="com.springboot.dubbo.server.dao"
                              targetProject="src/main/java" type="XMLMAPPER" >
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
